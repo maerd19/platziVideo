@@ -10,7 +10,7 @@ import '../assets/styles/App.scss';
 
 const API = 'http://localhost:3000/initialState';
 
-const App = () => {
+const Home = () => {
   const videos = useInitialState(API);
   const categories = Object.keys(videos);
   return (
@@ -34,7 +34,7 @@ const App = () => {
   );
 
   // return (
-  //   <div className="App">
+  //   <div className="Home">
   //     <Header />
   //     <Search />
 
@@ -73,4 +73,4 @@ const App = () => {
   // );
 };
 
-export default App;
+export default Home;
