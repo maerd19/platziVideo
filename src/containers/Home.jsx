@@ -14,8 +14,7 @@ const Home = () => {
   const videos = useInitialState(API);
   const categories = Object.keys(videos);
   return (
-    <div>
-      <Header />
+    <>
       <Search />
       {categories.map(
         (category) =>
@@ -29,8 +28,7 @@ const Home = () => {
             </Categories>
           )
       )}
-      <Footer />
-    </div>
+    </>
   );
 
   // return (
