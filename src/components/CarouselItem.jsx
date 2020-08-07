@@ -65,7 +65,6 @@ CarouselItem.propTypes = {
   duration: PropTypes.number
 };
 
-// export default CarouselItem;
 const mapDispatchToProps = {
   setFavorite,
   deleteFavorite
